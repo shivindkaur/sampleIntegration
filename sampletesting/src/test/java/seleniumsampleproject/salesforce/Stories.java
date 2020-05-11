@@ -27,12 +27,16 @@ package seleniumsampleproject.salesforce;
 	import org.jbehave.core.steps.ParameterConverters;
 	import org.jbehave.core.steps.SilentStepMonitor;
 	import org.jbehave.core.steps.StepFinder;
+import org.junit.runner.RunWith;
 
-	import com.thoughtworks.paranamer.NullParanamer;
+import com.thoughtworks.paranamer.NullParanamer;
 
 	public class Stories extends JUnitStories {
 
 		private Configuration configuration;
+		
+		
+		
 
 		public Stories() {
 			super();
