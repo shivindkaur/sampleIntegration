@@ -35,6 +35,7 @@ public class CaseCreationValidationTest {
 		element_password.sendKeys(password);
 		login_button = cd.findElement(By.id("Login"));
 		login_button.click();
+		System.out.println("stopping...");
 	}
 
 	
